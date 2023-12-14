@@ -1,8 +1,6 @@
 # end-of-phase1-project
 # Linear Regression Model on Student Performance
 
-![Alt text](image-3.png)
-
 ## Project Overview
 
 This project delves into data from two Portuguese schools, looking into how students fare in secondary education. We've got grades, demographics, social factors, and school details gathered from reports and questionnaires.
