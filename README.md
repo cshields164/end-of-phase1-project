@@ -1,5 +1,6 @@
-# End of the project 
 # Student Performance Analysis Project
+
+ ![Project logo](docs/project.png)
 
 ## Introduction
 
@@ -17,11 +18,11 @@ The exploration phase involved creating boxplots to visualize the relationship b
 
 ### Boxplots: Relationship Status and Final Grades (Math Class)
 
-![Math Class Boxplot](docs\EDA boxplot M.png)
+![Math Class Boxplot](docs/EDA_boxplot_M.png)
 
 ### Boxplots: Relationship Status and Final Grades (Portuguese Class)
 
-![Portuguese Class Boxplot](docs\EDA boxplot P.png)
+![Portuguese Class Boxplot](docs/EDA_boxplot_P.png)
 
 ## Data Cleaning
 
@@ -29,11 +30,11 @@ During the exploration, outliers were identified in the boxplots. Further invest
 
 ### Cleaned Data Boxplots (Math Class)
 
-![Math cleaned Data Boxplots](docs\Boxplot after clean M.png)
+![Math cleaned Data Boxplots](docs/Boxplot_after_clean_M.png)
 
 ### Cleaned Data Boxplots (Portguess Class)
 
-![Portuguess cleaned Data Boxplots](docs\Boxplot after clean P.png)
+![Portuguess cleaned Data Boxplots](docs/Boxplot_after_clean_P.png)
 
 ## Statistical Analysis
 
@@ -45,18 +46,7 @@ The statistical analysis utilized a one-way ANOVA to examine the main effect of 
 
 ### One-way ANOVA Results
 
-```python
-import statsmodels.api as sm
-anova_m = sm.stats.anova_lm(model_m, typ=1)
-anova_p = sm.stats.anova_lm(model_p, typ=1)
-print('One-way ANOVA TEST results for Math class:')
-print(round(anova_m, 4))
-print(' ')
-print('One-way ANOVA TEST results for Portugeese class')
-print(round(anova_p, 4))
-```
-
-### making sense of ONE-WAY ANOVA results  
+![Results of the ANOVA](docs/anova.png)
 
 For the Math class, the p-value associated with the relationship status variable (Romance and Grades) is 0.4021. Since this p-value is greater than the significance level (alpha) of 0.05, we fail to reject the null hypothesis (H0). Therefore, we conclude that there is NO main effect of relationship status on the final grades of the students in Math Class.
 
