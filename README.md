@@ -10,9 +10,11 @@ I then utilized a boxplot for 'freetime' and midterm first grade 'G1'
 ![Alt text](docs/image-4.png)
 
 I then utlized a boxplot to compare all three variables 'schoolsup', 'G3', 'studytime' to see if there is any correlation
+
 ![Alt text](docs/image-6.png)
 
 I noticed there was no correlation between student performance and the free time and go out.
+
 ![Alt text](docs/image.png)
 
 Finally I compared the variable of extra after school support 'studentsup' with the sum of grades 'G1+G2+G3' and I noticed a correlation while exploring!
