@@ -6,7 +6,7 @@
 
 This project focuses on analyzing the relationship between relationship status and the final grade performance of high school students in two distinct subjects: Mathematics (mat) and Portuguese language (por). The dataset comprises student grades, demographic, social, and school-related features collected through school reports and questionnaires.
 
-**Source Reference:** The data was originally introduced by [Cortez and Silva in 2008](https://www.sciencedirect.com/science/article/pii/S0167923609001703) and has been used for binary/five-level classification and regression tasks.
+**Source Reference:** The data was originally introduced by [Paulo Cortez](https://archive.ics.uci.edu/dataset/320/student+performance) and has been used for binary/five-level classification and regression tasks.
 
 ## Project Overview
 
