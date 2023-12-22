@@ -31,6 +31,13 @@ Our next outside factor that were interested to us were weekly use of alchol (Wa
 ![Portuguese Class Boxplot](docs/charles.png)
 
 
+### Boxplots: Fina Grades and the Weekly use of alchol for Portuguese class 
+
+Lastly we compared the variable of extra after school support ‘studentsup’ with the sum of grades ‘G1+G2+G3’ and we noticed that students with support had at least a grade of 15 or above and those without the student support had much lower grades in the minimum range while exploring!
+y-axis represent the sum of grades and x-axis represent the studentsup. 
+
+![Portuguese Class Boxplot](docs/zena.png)
+
 ## Data Cleaning
 
 During the exploration, outliers were identified in the boxplots. Further investigation revealed that some students had zero absences but lacked a final grade, despite having grades for G1 and G2. To address this issue, these rows were dropped, and updated boxplots were generated to visualize the cleaned data without outliers.
