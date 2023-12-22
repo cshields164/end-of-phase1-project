@@ -79,10 +79,12 @@ The final step involved building linear regression model to predict the final gr
   - Mean Squared Error: 0.8733
   - R-squared: 0.8934
 
+In addition, we created a linear regression for school support and grades, our conclusion for that variable is:
+We conducted ttest for all variables 'go out' 'freetime' 'schoolsup_yes' and found p-value to be 0. Futhermore, I did a linear regression model to compare schoolsup_yes with final grade 'G3' and found no correlation with Mean Squared Error: 10.268869434623412 R-squared: -0.01867436306531478 So for now, our null hypothesis for the topics we were analyzing is that there is no impact between going out and having free time on student academic performance. The alternative hypothesis is that there is an influence going out and having free time. We found no evidence of correlation during our exploration so we will reject on our null hypothesis as there was a p-value=0 Finally, with our linear regression result of Mean Squared Error: 10.268869434623412 R-squared: -0.01867436306531478 we see no impact between students with school support with their performace. So our null hypothesis for the topics we were analyzing is that there is no impact between school support on student academic performance.The alternative hypothesis is that there is an impact between school support on student academic performance. We will reject our null hypothesis as we have no impact on school support with student final grades.
 
 ## Conclusion
 
-The project concludes that there is no significant main effect of relationship status on the final grades of high school students in either Math or Portuguese classes. The linear regression models, incorporating relevant predictors, demonstrated high R-squared values, indicating their effectiveness in predicting final grades.
+The project concludes that there is no significant main effect of relationship status and school support on the final grades of high school students in either Math or Portuguese classes. The linear regression models, incorporating relevant predictors, demonstrated high R-squared values, indicating their effectiveness in predicting final grades.
 
 Feel free to explore the provided code and visualizations to gain a deeper understanding of the analysis conducted in this project.
 
