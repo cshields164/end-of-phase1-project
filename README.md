@@ -10,11 +10,11 @@ This project focuses on analyzing the relationship between relationship status a
 
 ## Project Overview
 
-In this section of the group project, the primary objective was to investigate the correlation between relationship status and final grade performance, separately for Mathematics and Portuguese classes. The project proceeded through three main phases: exploration, data cleaning, and statistical analysis.
+In this section of the group project, we focused on multiple outside school factors that could determine the final grade of the high school students. The project proceeded through three main phases: exploration, data cleaning, and statistical analysis.
 
 ## Exploration
 
-The exploration phase involved creating boxplots to visualize the relationship between relationship status (yes or no) and final grades. The boxplots were generated for each class (Math and Portuguese) with the final grades on the x-axis, and gender (male or female) represented by different hues. This visualization aimed to provide an initial understanding of the data distribution.
+We start the exploration phase by creating boxplots to visualize the first two outside school factors like relationship between romatic status (yes or no) and final grades. The boxplots were generated for each class (Math and Portuguese) with the final grades on the x-axis, and gender (male or female) represented by different hues. This visualization aimed to provide an initial understanding of the data distribution.
 
 ### Boxplots: Relationship Status and Final Grades (Math Class)
 
@@ -23,6 +23,8 @@ The exploration phase involved creating boxplots to visualize the relationship b
 ### Boxplots: Relationship Status and Final Grades (Portuguese Class)
 
 ![Portuguese Class Boxplot](docs/EDA_boxplot_P.png)
+
+Our next outside factor that were interested to us were weekly use of alchol (Walc). The boxplots were generated for Portuguese class with the final grades on the x-axis, and gender (male or female) represented by different hues. This visualization aimed to provide an initial understanding of the data distribution.
 
 ## Data Cleaning
 
