@@ -24,7 +24,12 @@ We start the exploration phase by creating boxplots to visualize the first two o
 
 ![Portuguese Class Boxplot](docs/EDA_boxplot_P.png)
 
-Our next outside factor that were interested to us were weekly use of alchol (Walc). The boxplots were generated for Portuguese class with the final grades on the x-axis, and gender (male or female) represented by different hues. This visualization aimed to provide an initial understanding of the data distribution.
+### Boxplots: Fina Grades and the Weekly use of alchol for Portuguese class 
+
+Our next outside factor that were interested to us were weekly use of alchol (Walc). The boxplots were generated for Portuguese class with the final grades on the y-axis, and the Walc on the x-axis. 
+
+![Portuguese Class Boxplot](docs/charles.png)
+
 
 ## Data Cleaning
 
